@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protobuf;
+
+message PersonFood {
+  string name = 1; // Name of person
+  string favoriteFood = 2; // What is this person's favortie food?
+  int32 timesEaten = 3; // How many times have they eaten their favorite food in the past month?
+}
