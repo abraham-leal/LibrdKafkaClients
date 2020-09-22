@@ -1,0 +1,11 @@
+DotNet/.DS_Store
+DotNet/bin/
+DotNet/cacert.pem
+DotNet/obj/
+.DS_Store
+Go/.idea/
+Python/.DS_Store
+Python/.idea/
+Python/protobuf/__init__.py
+Python/protobuf/__pycache__/
+Python/venv/
