@@ -31,7 +31,7 @@ func getConsumer (configs *kafka.ConfigMap) (*kafka.Consumer) {
 	if err != nil {
 		// Catch errors while initializing
 		fmt.Println(err)
-		panic ("Error in creating producer")
+		panic ("Error in creating consumer")
 	}
 
 	return myConsumer
