@@ -13,11 +13,11 @@ namespace encryption_demo
         {
             var props = new ConsumerConfig
             {
-                BootstrapServers = "pkc-4yyd6.us-east1.gcp.confluent.cloud:9092",
+                BootstrapServers = "",
                 SecurityProtocol = SecurityProtocol.SaslSsl,
                 SaslMechanism = SaslMechanism.Plain,
-                SaslUsername = "AUGGUQ6G57NWNNOT",
-                SaslPassword = "CHFVXF4ZhZdOa1EpR/VkYPjxwDZJsPYA8oNNvlneDMjGGE/R8XMmEn7siD9zumX5",
+                SaslUsername = "",
+                SaslPassword = "",
                 ClientId = "DotNetConsumer",
                 GroupId = Guid.NewGuid().ToString(),
                 AutoOffsetReset = AutoOffsetReset.Earliest,

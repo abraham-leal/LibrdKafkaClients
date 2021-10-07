@@ -15,10 +15,10 @@ namespace encryption_demo
         {
             var schemaProps = new SchemaRegistryConfig
             {
-                Url = "https://psrc-4r3n1.us-central1.gcp.confluent.cloud",
+                Url = "",
                 BasicAuthCredentialsSource = AuthCredentialsSource.UserInfo,
-                BasicAuthUserInfo = "RYAD2SRPJ6TVMLAA:FORK5f1AGLlC6KQ4tFPMoZR93b2L6Gv1x2jJ6FFINDw2G4D3uhCTRHV9xN86Wo+s",
-                SslCaLocation = "/Users/abrahamleal/Documents/git/encryption-demo/encryption-project-dotnet/encryption-project-dotnet/encryption-demo/cacert.pem"
+                BasicAuthUserInfo = "", 
+                SslCaLocation = "" 
             };
             
             return new CachedSchemaRegistryClient(schemaProps);
@@ -37,11 +37,11 @@ namespace encryption_demo
         {
             var props = new ProducerConfig
             {
-                BootstrapServers = "pkc-4yyd6.us-east1.gcp.confluent.cloud:9092",
+                BootstrapServers = "", 
                 SecurityProtocol = SecurityProtocol.SaslSsl,
                 SaslMechanism = SaslMechanism.Plain,
-                SaslUsername = "AUGGUQ6G57NWNNOT",
-                SaslPassword = "CHFVXF4ZhZdOa1EpR/VkYPjxwDZJsPYA8oNNvlneDMjGGE/R8XMmEn7siD9zumX5",
+                SaslUsername = "",
+                SaslPassword = "", 
                 ClientId = System.Net.Dns.GetHostName(),
                 SslCaLocation = "probe"
             };
