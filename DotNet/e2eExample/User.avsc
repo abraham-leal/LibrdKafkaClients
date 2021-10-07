@@ -1,0 +1,11 @@
+{
+  "namespace": "Confluent.encryption_demo",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "address",  "type": "string"},
+    {"name": "ethnicity", "type": "string"},
+    {"name": "favorite_color", "type": "string"}
+  ]
+}
